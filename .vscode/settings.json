@@ -1,0 +1,30 @@
+{
+    "typescript.tsdk": "node_modules\\typescript\\lib",
+    "typescript.enablePromptUseWorkspaceTsdk": true,
+    "editor.wordWrap": "on",
+    "prettier.enable": true,
+    "json.format.enable": true,
+    "editor.formatOnSave": true,
+    "files.autoSave": "off",
+    "[json]": {
+      "editor.quickSuggestions": {
+        "strings": true
+      },
+      "editor.suggest.insertMode": "replace",
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "[javascriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+    , "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "[javascript]": {
+      "editor.maxTokenizationLineLength": 2500,
+    "editor.formatOnSave": true
+    },
+    
+  }
